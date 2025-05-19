@@ -1,6 +1,6 @@
 class Solution {
 public:
-int sumByD(vector<int> &arr, int div) {
+   int calculate(vector<int> &arr, int div) {
     int n = arr.size(); //size of array
     //Find the summation of division values:
     int sum = 0;
@@ -9,22 +9,23 @@ int sumByD(vector<int> &arr, int div) {
     }
     return sum;
 }
-    int smallestDivisor(vector<int>& arr, int limit) {
-         int n = arr.size();
-    if (n > limit) return -1;
-    int low = 1, high = *max_element(arr.begin(), arr.end());
+    int smallestDivisor(vector<int>& nums, int threshold) {
+        int low=1; int high = *max_element(nums.begin(),nums.end()); 
+        int n= nums.size(); 
+        if(n>threshold) return -1;
+        while(low<=high)
+        {
+            int mid = low+(high-low)/2; 
 
-    //Apply binary search:
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        if (sumByD(arr, mid) <= limit) {
-            high = mid - 1;
+            if(calculate(nums,mid) <= threshold)
+            {
+                high=mid-1; 
+            }
+            else
+            {
+                low=mid+1; 
+            }
         }
-        else {
-            low = mid + 1;
-        }
-    }
-    return low;
-        
+        return low;
     }
 };
