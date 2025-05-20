@@ -42,9 +42,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0283-move-zeroes](https://github.com/ayush02303/Leetcode/tree/master/0283-move-zeroes) |
+| [0344-reverse-string](https://github.com/ayush02303/Leetcode/tree/master/0344-reverse-string) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 ## Simulation
 |  |
 | ------- |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/ayush02303/Leetcode/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
