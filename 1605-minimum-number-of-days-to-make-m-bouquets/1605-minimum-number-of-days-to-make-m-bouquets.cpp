@@ -14,7 +14,7 @@ bool possible(vector<int> &arr, int day, int m, int k) {
             cnt = 0;
         }
     }
-    noOfB += (cnt / k);
+    noOfB += (cnt / k);//why
     return noOfB >= m;
 }
     int minDays(vector<int>& arr, int m, int k) {
@@ -22,14 +22,14 @@ bool possible(vector<int> &arr, int day, int m, int k) {
     int n = arr.size(); //size of the array
     if (val > n) return -1; //impossible case.
     //find maximum and minimum:
-    int mini = INT_MAX, maxi = INT_MIN;
+    /*int mini = INT_MAX, maxi = INT_MIN;
     for (int i = 0; i < n; i++) {
         mini = min(mini, arr[i]);
         maxi = max(maxi, arr[i]);
-    }
+    }*/
 
     //apply binary search:
-    int low = mini, high = maxi;
+    int low = *min_element(arr.begin(),arr.end()), high = *max_element(arr.begin(),arr.end());
     while (low <= high) {
         int mid = (low + high) / 2;
         if (possible(arr, mid, m, k)) {
