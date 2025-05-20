@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayush02303/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayush02303/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 ## Hash Table
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayush02303/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayush02303/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 ## Bit Manipulation
 |  |
