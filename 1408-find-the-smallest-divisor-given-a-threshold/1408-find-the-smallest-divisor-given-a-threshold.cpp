@@ -1,23 +1,24 @@
 class Solution {
 public:
-   int calculate(vector<int> &arr, int div) {
-    int n = arr.size(); //size of array
-    //Find the summation of division values:
-    int sum = 0;
-    for (int i = 0; i < n; i++) {
-        sum += ceil((double)(arr[i]) / (double)(div));
-    }
-    return sum;
-}
+    int calculate(vector<int> & nums, int mid)
+    {
+        int sum=0; 
+        for(int i=0;i<nums.size();i++)
+        {
+            sum+=ceil( (double)(nums[i]) / (double)(mid)); // might give an error  
+        }
+        return sum; 
+    };
     int smallestDivisor(vector<int>& nums, int threshold) {
-        int low=1; int high = *max_element(nums.begin(),nums.end()); 
         int n= nums.size(); 
-        if(n>threshold) return -1;
+        if(n>threshold) return -1; 
+        int low=1; int high= *max_element(nums.begin(),nums.end()); 
         while(low<=high)
         {
             int mid = low+(high-low)/2; 
+            int t= calculate(nums,mid); 
 
-            if(calculate(nums,mid) <= threshold)
+            if(t <= threshold)
             {
                 high=mid-1; 
             }
@@ -26,6 +27,6 @@ public:
                 low=mid+1; 
             }
         }
-        return low;
+        return low; // might try mid as well 
     }
 };
