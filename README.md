@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ayush02303/Leetcode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayush02303/Leetcode/tree/master/0283-move-zeroes) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
 | [2383-add-two-integers](https://github.com/ayush02303/Leetcode/tree/master/2383-add-two-integers) |
