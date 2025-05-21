@@ -1,13 +1,12 @@
 class Solution {
 public:
-    int findKthPositive(vector<int>& arr, int k) {
-        for(int i=0; i<arr.size();i++)
+    int findKthPositive(vector<int>& nums, int k) {
+        for(int i=0; i<nums.size();i++)
         {
-            if(arr[i] <= k)k++; 
+            if(nums[i] <=k)k+=1; 
             else break; 
         }
-        return k;           
-
+        return k; 
         
     }
 };
