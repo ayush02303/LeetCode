@@ -1,12 +1,25 @@
 class Solution {
 public:
+    /*int  calculate(vector<int>ans,int mid)
+    {
+
+    }; */
     int findKthPositive(vector<int>& nums, int k) {
-        for(int i=0; i<nums.size();i++)
+        int low=0; int high  =nums.size()-1; 
+        while(low<=high)
         {
-            if(nums[i] <=k)k+=1; 
-            else break; 
+            int mid = low+(high-low)/2; 
+
+            int t= nums[mid]- (mid+1); 
+            if(t<k)
+            {
+                low=mid+1; 
+            }
+            else
+            {
+                high=mid-1;
+            }
         }
-        return k; 
-        
+        return k+high+1;
     }
 };
