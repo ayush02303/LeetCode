@@ -1,20 +1,24 @@
 class Solution {
 public:
-    vector<int> plusOne(vector<int>& digits) {
-        
-          int n = digits.size();
-    
-    for (int i = n - 1; i >= 0; i--) {
-        if (digits[i] < 9) {
-            digits[i]++;
-            return digits;
-        }
-        digits[i] = 0; // carry over
-    }
+    vector<int> plusOne(vector<int>& nums) {
+        int n = nums.size();
 
-    // If all digits were 9, we need a new digit at the start
-    //digits.push_back(0); 
-    digits.insert(digits.begin(), 1);
-    return digits;
+        for(int i=n-1; i>=0; i--)
+        {
+            if(nums[i] <9)
+            {
+                nums[i]++; //nums[i] = nums[i]+1; 
+                return nums;
+            }
+            else
+            {
+                nums[i]=0; 
+            }
+
+        } 
+        nums.push_back(0);
+        nums[0]=1 ; 
+        return nums; 
+        
     }
 };
