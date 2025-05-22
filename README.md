@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
+| [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
 | [2383-add-two-integers](https://github.com/ayush02303/Leetcode/tree/master/2383-add-two-integers) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
@@ -112,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ayush02303/Leetcode/tree/master/0053-maximum-subarray) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
