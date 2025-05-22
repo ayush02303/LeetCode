@@ -6,7 +6,7 @@ public:
         {
             st.insert(num); 
         }
-        return (st.size()!=nums.size()); 
+        return st.size()!=nums.size(); 
 
         
     }
