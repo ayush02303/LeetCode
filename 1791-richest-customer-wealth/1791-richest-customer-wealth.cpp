@@ -8,7 +8,7 @@ public:
             int sum=0;
             for(int j =0; j< accounts[i].size();j++)
             {
-                sum = sum+ accounts[i][j]; 
+                sum +=accounts[i][j]; 
                 
             }
             maxi=max(maxi,sum);
