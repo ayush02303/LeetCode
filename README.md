@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/ayush02303/Leetcode/tree/master/1646-kth-missing-positive-number) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 | [3778-transform-array-by-parity](https://github.com/ayush02303/Leetcode/tree/master/3778-transform-array-by-parity) |
 ## Hash Table
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 | [3778-transform-array-by-parity](https://github.com/ayush02303/Leetcode/tree/master/3778-transform-array-by-parity) |
 ## Two Pointers
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 ## String
 |  |
 | ------- |
@@ -92,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
+| [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 ## Merge Sort
 |  |
 | ------- |
