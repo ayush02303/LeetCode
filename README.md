@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayush02303/Leetcode/tree/master/0283-move-zeroes) |
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ayush02303/Leetcode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -50,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
@@ -74,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -94,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [3778-transform-array-by-parity](https://github.com/ayush02303/Leetcode/tree/master/3778-transform-array-by-parity) |
 <!---LeetCode Topics End-->
