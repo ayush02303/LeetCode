@@ -10,7 +10,7 @@ public:
 
             maxi =max(maxi,count);
 
-            if(count<0) count=0;
+           if(count<0) count=0;
         }
         return maxi;
         
