@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/ayush02303/Leetcode/tree/master/0118-pascals-triangle) |
 | [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ayush02303/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayush02303/Leetcode/tree/master/0283-move-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ayush02303/Leetcode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ayush02303/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Math
@@ -76,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/ayush02303/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
