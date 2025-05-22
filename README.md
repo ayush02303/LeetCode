@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayush02303/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ayush02303/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/ayush02303/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1791-richest-customer-wealth](https://github.com/ayush02303/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/ayush02303/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -130,4 +131,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
+## Matrix
+|  |
+| ------- |
+| [1791-richest-customer-wealth](https://github.com/ayush02303/Leetcode/tree/master/1791-richest-customer-wealth) |
 <!---LeetCode Topics End-->
