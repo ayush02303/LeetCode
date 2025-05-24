@@ -1,6 +1,7 @@
 class Solution {
 public:
-    // Helper function: returns the number of subarrays needed if no subarray sum exceeds 'mid'
+    // Helper function: returns the number of subarrays needed if no subarray
+    // sum exceeds 'mid'
     int countSubarrays(vector<int>& nums, int mid) {
         int count = 1; // at least one subarray
         int currentSum = 0;
@@ -9,8 +10,8 @@ public:
             if (currentSum + nums[i] <= mid) {
                 currentSum += nums[i];
             } else {
-                count++;               // start new subarray
-                currentSum = nums[i];  // reset current sum
+                count++;              // start new subarray
+                currentSum = nums[i]; // reset current sum
             }
         }
         return count;
@@ -28,7 +29,7 @@ public:
             if (pieces > k) {
                 low = mid + 1; // too many splits, increase allowed sum
             } else {
-                result = mid;  // valid, try smaller sum
+                result = mid; // valid, try smaller sum
                 high = mid - 1;
             }
         }
