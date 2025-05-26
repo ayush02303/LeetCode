@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ayush02303/Leetcode/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ayush02303/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0118-pascals-triangle](https://github.com/ayush02303/Leetcode/tree/master/0118-pascals-triangle) |
+| [0137-single-number-ii](https://github.com/ayush02303/Leetcode/tree/master/0137-single-number-ii) |
 | [0152-maximum-product-subarray](https://github.com/ayush02303/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayush02303/Leetcode/tree/master/0217-contains-duplicate) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0137-single-number-ii](https://github.com/ayush02303/Leetcode/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/ayush02303/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
