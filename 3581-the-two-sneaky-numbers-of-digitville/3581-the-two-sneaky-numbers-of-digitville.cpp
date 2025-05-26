@@ -2,17 +2,13 @@ class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
         sort(nums.begin(),nums.end()); 
-        unordered_set<int>st; 
         vector<int>ans;
 
-        for( auto num : nums){
-            if(st.count(num)){
-                ans.push_back(num); 
+        for( int i=0; i<nums.size()-1;i++){
+            if(nums[i] == nums[i+1]){
+                ans.push_back(nums[i]); 
             }
-            st.insert(num); 
-
         }
         return ans;
-        
     }
 };
