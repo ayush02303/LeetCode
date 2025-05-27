@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        unordered_map<int,int>mp; 
+        unordered_map<int,int>mp;
         vector<int>ans; 
 
         for(auto num : nums){
