@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0344-reverse-string](https://github.com/ayush02303/Leetcode/tree/master/0344-reverse-string) |
 | [0742-to-lower-case](https://github.com/ayush02303/Leetcode/tree/master/0742-to-lower-case) |
+| [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
 ## Divide and Conquer
 |  |
@@ -203,4 +204,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayush02303/Leetcode/tree/master/0410-split-array-largest-sum) |
+## Stack
+|  |
+| ------- |
+| [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
