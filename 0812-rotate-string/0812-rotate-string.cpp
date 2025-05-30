@@ -5,7 +5,7 @@ public:
         if (s.length() != goal.length()) return false;
         int n = s.length();
 
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; i++) {
             rotate(s.begin(), s.begin() + 1, s.end());  // left rotate by 1
             if (s == goal) return true;
         }
