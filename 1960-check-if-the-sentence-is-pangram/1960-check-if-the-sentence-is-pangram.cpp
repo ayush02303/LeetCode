@@ -1,13 +1,12 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        set<int>st; 
-        for(int i =0 ; i< sentence.size() ;i++){
-            if(sentence[i]>= 'a' && sentence[i] <= 'z'){
-                st.insert(sentence[i]); 
-            }
+        unordered_map<char,int>mp; 
+
+        for( auto c : sentence){
+            mp[c]++; 
         }
-        return st.size() == 26;
+        return mp.size()==26; 
         
     }
 };
