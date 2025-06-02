@@ -1,18 +1,15 @@
 class Solution {
 public:
-    int mostWordsFound(vector<string>& s) {
-        int maxi = INT_MIN; 
-        for( int i=0; i< s.size() ; i++){
-            int curr_sum=0; 
-            for( auto c : s[i]){
-                if(c == ' '){
-                    curr_sum+=1; 
-                }
-                maxi = max(maxi,curr_sum); 
-            }
+    int mostWordsFound(vector<string>& sentences) {
+        int maxi = INT_MIN ;
+        for( int i =0 ; i< sentences.size() ; i++){
+             int word =0; 
+             for( auto num : sentences[i]){
+                if (num ==' ') word+=1;   
 
+             }
+             maxi = max(word,maxi); 
         }
-        return maxi+1;
-        
+        return maxi+1 ;
     }
 };
