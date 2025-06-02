@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ayush02303/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+| [2173-number-of-valid-words-in-a-sentence](https://github.com/ayush02303/Leetcode/tree/master/2173-number-of-valid-words-in-a-sentence) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/ayush02303/Leetcode/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
 ## Divide and Conquer
