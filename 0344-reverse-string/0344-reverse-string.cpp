@@ -5,7 +5,7 @@ public:
        int low =0 ; 
        int high = nums.size()-1 ; 
 
-       while(low< high){
+       while(low<=high){
         swap(nums[low++],nums[high--]); 
        }
         
