@@ -30,7 +30,7 @@ public:
     };
     int countValidWords(string sentence) {
         stringstream i( sentence);
-            string word; 
+            string word = " "; 
             int count=0; 
 
             while( i >> word){
