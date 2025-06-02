@@ -29,7 +29,7 @@ public:
 
     };
     int countValidWords(string sentence) {
-        istringstream iss( sentence);
+        stringstream iss( sentence);
             string word; 
             int count=0; 
 
