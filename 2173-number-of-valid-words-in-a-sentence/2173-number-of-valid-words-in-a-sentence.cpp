@@ -29,11 +29,11 @@ public:
 
     };
     int countValidWords(string sentence) {
-        stringstream iss( sentence);
+        stringstream i( sentence);
             string word; 
             int count=0; 
 
-            while( iss >> word){
+            while( i >> word){
                 if( isValid(word)) count+=1; 
             }
              return count; 
