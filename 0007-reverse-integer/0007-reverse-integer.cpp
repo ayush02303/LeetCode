@@ -14,6 +14,6 @@ public:
             return 0;
         }
 
-        return (int)rev;
+        return rev;
     }
 };
