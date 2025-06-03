@@ -1,13 +1,19 @@
 class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
-        sort(nums.begin(),nums.end()); 
-        vector<int>ans; 
-        for( int i=0; i< nums.size()-1 ;i++){
-            if(nums[i] == nums[i+1]){
-                ans.push_back(nums[i]); 
-            }
+        unordered_map<int,int>mp; 
+
+        for( auto num : nums){
+            mp[num]++; 
         }
-        return ans; 
+
+        vector<int>ans; 
+        for( auto num : nums){
+            if(mp[num] == 2) {
+                ans.push_back(num);
+                mp[num] =1;
+            } 
+        }
+        return ans ;
     }
 };
