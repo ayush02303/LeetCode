@@ -8,14 +8,11 @@ public:
 
         while (ss >> word) {
             reverse(word.begin(), word.end());  // Step 3: Reverse each word
-            ans += word + " ";                  // Step 4: Append word and space
+            ans +=" "+word;                  // Step 4: Append word and space
         }
 
-        // Step 5: Remove trailing space (if ans is not empty)
-        if (!ans.empty()) {
-            ans.pop_back();
-        }
+        
 
-        return ans;
+        return ans.substr(1);
     }
 };
