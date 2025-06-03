@@ -1,23 +1,24 @@
 class Solution {
-    public :
+public:
     int myAtoi(string s) {
-        if(s.length()==0) return 0;
-
+        if(s.size() == 0) return 0; 
+        int n = s.size(); 
         int i=0;
-         while(i<s.size() && s[i]== ' ') {
-             i++;
-         }     
-        s = s.substr(i); //i ---> last of string
-        
-        int sign = +1;
-        long ans = 0;
-        
-        if(s[0] == '-') sign = -1;
-        
-        int MAX = INT_MAX, MIN = INT_MIN;
-        i = (s[0] == '+' || s[0] == '-') ? 1 : 0;
-		
-        while(i < s.length()) {
+        while( i<n && s[i] ==' '){
+            i++; 
+        }
+        s= s.substr(i); 
+        // done with removing all leading spaces
+
+        int sign = +1; 
+        long ans =0; 
+        if( s[0] == '-') sign = -1; 
+
+        int MAX = INT_MAX ; int MIN = INT_MIN; 
+          i = (s[0] == '+' || s[0] == '-') ? 1 : 0;
+
+         // while(i<n && s[i] != ' '){}
+            while(i < s.length()) {
             if(s[0] == ' ' || !isdigit(s[i])) break;
             
             ans = ans * 10 + s[i]-'0';
@@ -26,7 +27,9 @@ class Solution {
             
             i++;
         }
+        return (int)sign*ans; 
+            
+
         
-        return (int)(sign*ans);
     }
 };
