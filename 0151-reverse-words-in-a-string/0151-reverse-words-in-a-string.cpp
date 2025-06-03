@@ -1,22 +1,21 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        reverse(s.begin(),s.end()); 
-        string ans = ""; 
-        int n = s.size(); 
-        for( int i=0; i< n ;i++){
-            string word = ""; 
+        reverse(s.begin(), s.end());  // Step 1: Reverse the entire string
+        stringstream ss(s);           // Step 2: Use stringstream to split by spaces
+        string word;
+        string ans = "";
 
-            while( i< n && s[i] != ' '){
-                word+=s[i]; 
-                i++; 
-
-            }
-            reverse(word.begin(),word.end()); 
-            if( word.length() > 0){
-                ans += " "+word; 
-            }
+        while (ss >> word) {
+            reverse(word.begin(), word.end());  // Step 3: Reverse each word
+            ans += word + " ";                  // Step 4: Append word and space
         }
-        return ans.substr(1); 
+
+        // Step 5: Remove trailing space (if ans is not empty)
+        if (!ans.empty()) {
+            ans.pop_back();
+        }
+
+        return ans;
     }
 };
