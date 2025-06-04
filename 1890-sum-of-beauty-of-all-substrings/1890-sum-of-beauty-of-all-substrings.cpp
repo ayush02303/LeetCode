@@ -7,7 +7,7 @@ public:
             for( int j=i ;  j< s.size() ;j++){
                 mp[s[j]]++; 
 
-                int maxfreq=0, minfreq = INT_MAX ;
+                int maxfreq=0, minfreq = INT_MAX;
 
                 for( auto c : mp){
                     maxfreq = max( maxfreq , c.second); 
