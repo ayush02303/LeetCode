@@ -1,23 +1,24 @@
 class Solution {
 public:
     int beautySum(string s) {
-        int count =0; 
-        for( int i =0 ; i<s.size() ; i++){
+        int beauty =0; 
+        int n = s.length(); 
+
+        for( int i =0 ; i<n ;i++){
+
             unordered_map<char,int>mp; 
-            for( int j=i ;  j< s.size() ;j++){
+            for(int j = i ; j< n ;j++){
                 mp[s[j]]++; 
 
-                int maxfreq=0, minfreq = INT_MAX;
-
+                int m = 0, l = INT_MAX; 
                 for( auto c : mp){
-                    maxfreq = max( maxfreq , c.second); 
-                    minfreq = min( minfreq , c.second); 
+                    m = max( m,c.second); 
+                    l = min(l,c.second); 
                 }
-                count+= (maxfreq - minfreq ) ; 
-
+                beauty+= m-l; 
+                
             }
-
         }
-        return count; 
+        return beauty; 
     }
 };
