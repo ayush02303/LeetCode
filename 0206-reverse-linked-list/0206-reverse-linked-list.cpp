@@ -8,25 +8,20 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* temp = head; 
-        stack<int>st; 
+        ListNode* prev = nullptr;   // previous node
+        ListNode* curr = head;      // current node
 
-        while( temp!= NULL){
-            st.push(temp->val); 
-            temp = temp->next; 
+        while (curr != nullptr) {
+            ListNode* nextTemp = curr->next;  // store next node
+            curr->next = prev;                // reverse the link
+            prev = curr;                      // move prev one step forward
+            curr = nextTemp;                   // move curr one step forward
+        }
 
-        }
-        temp = head; 
-        
-        while( temp!= NULL){
-            temp->val = st.top(); 
-            st.pop(); 
-            temp= temp->next; 
-        }
-        return head; 
-        
+        return prev;   // new head of the reversed list
     }
 };
