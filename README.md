@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/ayush02303/Leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ayush02303/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ayush02303/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/ayush02303/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Math
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3778-transform-array-by-parity](https://github.com/ayush02303/Leetcode/tree/master/3778-transform-array-by-parity) |
 ## Dynamic Programming
 |  |
