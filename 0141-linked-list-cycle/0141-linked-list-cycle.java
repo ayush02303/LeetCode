@@ -11,19 +11,15 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-         ListNode temp = head;
-        HashMap<ListNode, Integer> map = new HashMap<>();
+        ListNode temp = head; 
+        HashMap<ListNode,Integer>mp = new HashMap<>(); 
 
-        while (temp != null) {
-            if (map.containsKey(temp)) {
-                return true; // Cycle detected
-            }
-
-            map.put(temp, 1); // Mark as visited
-            temp = temp.next;
+        while(temp!=null){
+            if(mp.containsKey(temp)) return true; 
+            mp.put(temp,1); 
+            temp = temp.next; 
         }
-
-        return false; // No cycle found
+        return false; 
         
     }
 }
