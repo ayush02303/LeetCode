@@ -11,18 +11,16 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* curr = head; 
-        stack<int>st;
-        while( curr!= NULL){
-            st.push(curr->val); 
-            curr = curr->next; 
+        // optimized in place solution 
+        ListNode* temp = head; 
+        ListNode* prev = NULL; 
+
+        while(temp!= NULL){
+            ListNode* nxt = temp->next; 
+            temp->next = prev; 
+            prev= temp; 
+            temp = nxt; 
         }
-        curr = head; 
-        while( curr!= NULL){
-            curr->val = st.top(); 
-            st.pop(); 
-            curr = curr->next;
-        }
-        return head;
+        return prev; 
     }
 };
