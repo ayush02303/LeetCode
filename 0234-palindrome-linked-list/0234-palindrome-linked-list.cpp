@@ -12,15 +12,14 @@ class Solution {
 public:
     bool isPalindrome(ListNode* head) {
         ListNode* temp = head; 
-        stack<int>st ; 
-        
-        while( temp!=NULL){
+        stack<int>st; 
+        while( temp!= NULL){
             st.push(temp->val); 
             temp = temp->next; 
         }
         temp = head; 
         while( temp!= NULL){
-            if( temp->val != st.top()) return false; 
+            if( temp->val !=  st.top()) return false; 
             st.pop(); 
             temp = temp->next; 
         }
