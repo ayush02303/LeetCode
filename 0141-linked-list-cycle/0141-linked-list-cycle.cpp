@@ -14,7 +14,7 @@ public:
         while (temp != NULL) {
             if (mp.find(temp) != mp.end())
                 return true;
-            mp[temp] = 1;
+            mp[temp]++; 
             temp = temp->next;
         }
         return false;
