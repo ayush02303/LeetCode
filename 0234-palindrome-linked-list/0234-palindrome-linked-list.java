@@ -11,20 +11,20 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode temp = head; 
-       // stack<int>st; 
-       Stack<Integer> stack = new Stack<>();
+        Stack<Integer>st = new Stack <>(); 
 
         while( temp!= null){
-            //st.push(temp.val); 
-            stack.push(temp.val);
+            st.push(temp.val); 
             temp = temp.next; 
         }
         temp = head; 
-        while( temp!=null){
-            if( temp.val != stack.peek()) return false; 
-            stack.pop(); 
-            temp =temp.next;
+        while( temp!= null){
+            if(st.peek() !=  temp.val) return false; 
+            st.pop(); 
+            temp = temp.next; 
         }
-        return true; 
+        return true;
+
+        
     }
-};
+}
