@@ -11,18 +11,19 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
+        // brute force based approahc 
         ListNode* temp = head; 
         int count =0; 
+
         while( temp!= NULL){
             count+=1; 
             temp = temp->next; 
-        } 
-        int m = (count/2)+1; 
-
+        }
+        int mid = (count/2)+1; 
         temp = head; 
         while( temp!= NULL){
-            m-=1; 
-            if( m == 0) break; 
+            mid-=1; 
+            if( mid == 0) break; 
             temp = temp->next; 
         }
         return temp; 
