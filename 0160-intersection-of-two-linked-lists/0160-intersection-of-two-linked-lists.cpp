@@ -9,12 +9,11 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode* temp = headA;
+        unordered_map<ListNode*,int>mp; 
 
-        ListNode* temp = headA; 
-        unordered_map<ListNode* , int>mp; 
-
-        while( temp!=NULL){
-            mp[temp]++; 
+        while(temp!=NULL){
+            mp[temp]++;
             temp = temp->next;
         }
         temp = headB; 
@@ -23,5 +22,6 @@ public:
             temp = temp->next;
         }
         return NULL;
+        
     }
 };
