@@ -20,7 +20,7 @@ class Solution {
             slow = slow.next; 
             fast = fast.next.next; 
         }
-        prev.next = slow.next; 
+        prev.next = prev.next.next; 
         return head; 
     }
 }
