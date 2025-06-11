@@ -23,6 +23,6 @@ class Solution {
             temp =temp.next; 
             st.pop(); 
         }       
-        return true; 
+        return true;
     }
 }
