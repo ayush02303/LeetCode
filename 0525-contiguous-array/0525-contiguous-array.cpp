@@ -1,22 +1,22 @@
 class Solution {
 public:
     int findMaxLength(vector<int>& nums) {
-          unordered_map<int, int> prefixIndex;
-        prefixIndex[0] = -1; // Handle subarrays starting from index 0
+        unordered_map<int,int>mp; 
+        mp[0] = -1;
+        int count  =0; 
+        int sum = 0; 
+        int maxlen = 0; 
 
-        int maxLen = 0;
-        int prefixSum = 0;
+        for( int i =0 ; i<nums.size() ; i++){
+            sum+= (nums[i] == 0) ? -1 :1 ;
 
-        for (int i = 0; i < nums.size(); i++) {
-            // Treat 0 as -1 to balance with 1s
-            prefixSum += (nums[i] == 0) ? -1 : 1;
-
-            if (prefixIndex.find(prefixSum) != prefixIndex.end()) {
-                maxLen = max(maxLen, i - prefixIndex[prefixSum]);
-            } else {
-                prefixIndex[prefixSum] = i;
+            if( mp.find(sum) != mp.end() ){
+                maxlen = max(maxlen,i-mp[sum]);
+            }
+            else{
+                mp[sum] = i; 
             }
         }
-        return maxLen;
+        return maxlen ;
     }
 };
