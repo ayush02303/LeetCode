@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ayush02303/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0525-contiguous-array](https://github.com/ayush02303/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/ayush02303/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0525-contiguous-array](https://github.com/ayush02303/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ayush02303/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ayush02303/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0525-contiguous-array](https://github.com/ayush02303/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Greedy
 |  |
