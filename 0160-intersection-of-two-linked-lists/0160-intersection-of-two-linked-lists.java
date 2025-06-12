@@ -12,15 +12,15 @@
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode temp = headA; 
-        Map<ListNode,Integer>mp = new HashMap<>(); 
-        while(temp!=null){
-            mp.put(temp,1); 
+        Map<ListNode , Integer>mp = new HashMap<>(); 
+        while(temp!= null){
+            mp.put(temp,1);
             temp = temp.next;
         }
         temp = headB; 
         while(temp!=null){
             if(mp.containsKey(temp)) return temp; 
-            temp = temp.next;
+            temp = temp.next; 
         }
         return null;
     }
