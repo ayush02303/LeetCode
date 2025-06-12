@@ -6,30 +6,34 @@
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- 
- *     https://leetcode.com/problems/add-two-numbers/
- 
  * };
  */
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *ans = new ListNode(0);
-        ListNode *p = l1, *q=l2, *curr = ans;
-        int carry=0;
-        while(p!=NULL || q!=NULL){
-            int x = (p!=NULL) ? p->val : 0;
-            int y = (q!=NULL) ? q->val : 0;
-            int sum = carry + x+ y;
-            carry = sum/10;
-            curr->next = new ListNode(sum%10);
-            curr = curr->next;
-            if(p!=NULL) p = p->next;
-            if(q!=NULL) q = q->next;
+        ListNode* temp1 = l1; 
+        ListNode* temp2 = l2; 
+
+        ListNode* dummy = new ListNode(-1); 
+        ListNode* curr = dummy; 
+        int carry = 0; 
+
+        while( temp1!= NULL || temp2!= NULL){
+            int sum = carry; 
+            if(temp1) sum+=temp1->val; 
+            if(temp2) sum+=temp2->val; 
+            ListNode* temp = new ListNode(sum%10); 
+            carry = sum/10; 
+            curr->next = temp; 
+            curr = curr->next; 
+
+            if(temp1) temp1 = temp1->next; 
+            if(temp2) temp2 = temp2->next; 
         }
         if(carry>0){
-            curr->next = new ListNode(carry);
+            curr->next = new ListNode(carry); 
+            
         }
-        return ans->next;
+        return dummy->next;
     }
 };
