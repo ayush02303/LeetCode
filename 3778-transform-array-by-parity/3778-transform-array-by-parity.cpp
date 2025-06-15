@@ -11,7 +11,7 @@ public:
             }
             
         }
-        sort(ans.begin(),ans.end());
+        sort(nums.begin(),nums.end());
         return nums;
     }
 };
