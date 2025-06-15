@@ -23,6 +23,6 @@ class Solution {
             }
 
         }
-        return head; 
+        return head;
     }
 }
