@@ -20,11 +20,10 @@ class Solution {
         }
 
         // Step 4: Convert List<Integer> to int[]
-        int[] result = new int[nums.length];
-        for (int i = 0; i < ans.size(); i++) {
+        int[] result = new int[nums.length]; 
+        for( int i =0; i< nums.length ; i++){
             result[i] = ans.get(i);
         }
-
-        return result;
+        return result ; 
     }
 }
