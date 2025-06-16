@@ -6,13 +6,14 @@ public:
 
         unordered_map<int,int>mp; 
         int rank = 1; 
+
         for( int num : copy){
-            if( mp.count(num) == 0) mp[num] = rank++; 
+            if(mp.count(num) == 0) mp[num] = rank++; 
         }
         vector<int>ans; 
-        for( int ele : arr){
-            ans.push_back(mp[ele]);
-        }
+        for( int num : arr){
+            ans.push_back(mp[num]);
+        } 
         return ans;
     }
 };
