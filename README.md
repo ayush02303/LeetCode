@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/ayush02303/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ayush02303/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ayush02303/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/ayush02303/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ayush02303/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ayush02303/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/ayush02303/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ayush02303/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ayush02303/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 ## Greedy
