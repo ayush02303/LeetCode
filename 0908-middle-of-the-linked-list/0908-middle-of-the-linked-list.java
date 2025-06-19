@@ -10,6 +10,7 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
+        if( head == null || head.next == null) return head; 
        int l = 0; 
        ListNode temp = head; 
        while( temp!= null){
