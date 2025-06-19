@@ -17,7 +17,7 @@ class Solution {
             l+=1; 
             temp = temp.next; 
         }
-        temp.next = head; 
+        temp.next = head;
 
         k = k%l; 
         int a = l-k; 
