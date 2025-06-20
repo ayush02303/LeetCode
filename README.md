@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/ayush02303/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/ayush02303/Leetcode/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
+| [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [1806-count-of-matches-in-tournament](https://github.com/ayush02303/Leetcode/tree/master/1806-count-of-matches-in-tournament) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/ayush02303/Leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/ayush02303/Leetcode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ayush02303/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ayush02303/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0680-valid-palindrome-ii](https://github.com/ayush02303/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/ayush02303/Leetcode/tree/master/0742-to-lower-case) |
