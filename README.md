@@ -269,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0742-to-lower-case](https://github.com/ayush02303/Leetcode/tree/master/0742-to-lower-case) |
 | [0812-rotate-string](https://github.com/ayush02303/Leetcode/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [1205-defanging-an-ip-address](https://github.com/ayush02303/Leetcode/tree/master/1205-defanging-an-ip-address) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ayush02303/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
