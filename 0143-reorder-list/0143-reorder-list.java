@@ -10,22 +10,17 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        //question is a bit on the tough side , amalgamation of multiple concepts
-
-        // step 1 : find the middle 
+        // find the middle 
         ListNode slow = head; 
-        ListNode fast = head;
-        while( fast!= null && fast.next != null){
+        ListNode fast = head; 
+
+        while(fast!= null && fast.next != null){
             slow = slow.next; 
             fast = fast.next.next; 
-
-            //if(slow == fast) break;
         }
-
-        // step 2 : reverse 
+        // reverse after middle 
         ListNode prev = null; 
-        ListNode curr = slow.next; //since slow is the middle and we want to reverse
-        //the section after the middle 
+        ListNode curr = slow.next; 
         slow.next = null;
 
         while( curr!= null){
@@ -34,21 +29,21 @@ class Solution {
             prev = curr; 
             curr = next;
         }
-        // step 3 , merge the list as per requirement
 
-        ListNode first =  head;
-        ListNode second = prev ; 
+        // reorder 
+        ListNode first = head; 
+        ListNode second = prev;  //since prev indicates our head of reversed linked list 
 
-        while(second!= null){
-            ListNode temp1 = first.next;
+        while( second!= null){
+            ListNode temp1 = first.next; 
             ListNode temp2 = second.next; 
 
             first.next = second; 
             second.next = temp1; 
 
             first = temp1; 
-            second = temp2; 
+            second = temp2;
         }
-
+        
     }
 }
