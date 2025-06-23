@@ -11,28 +11,27 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-        // Intuition using an vector array to store
-        if( head == NULL  || head->next == NULL ) return head;
+        if( head == NULL || head->next == NULL) return head; 
         vector<int>ans; 
         ListNode* temp = head; 
         while( temp!= NULL && temp->next != NULL){
             ans.push_back(temp->val); 
             temp = temp->next->next; 
-        } 
+        }
         if( temp) ans.push_back(temp->val); 
-        temp = head->next; 
-        while( temp!= NULL && temp->next != NULL ){
+        temp = head->next;
+        while( temp!= NULL && temp->next != NULL){
             ans.push_back(temp->val); 
             temp = temp->next->next; 
-        }
+        } 
         if( temp) ans.push_back(temp->val); 
         int i = 0; 
         temp = head; 
-        while( temp != NULL ){
+        while( temp!= NULL){
             temp->val = ans[i++]; 
             temp = temp->next; 
-        } 
-        return head;
+        }
+        return head; 
         
     }
 };
