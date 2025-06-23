@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ayush02303/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ayush02303/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ayush02303/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/ayush02303/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ayush02303/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0680-valid-palindrome-ii](https://github.com/ayush02303/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/ayush02303/Leetcode/tree/master/2551-apply-operations-to-an-array) |
