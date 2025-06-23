@@ -8,7 +8,7 @@ public:
                     int a = max(nums[i],nums[j]); 
                     int b= min(nums[i],nums[j]); 
 
-                    st.insert({a,b}); 
+                    st.insert({a,b});
                 }
             }
         }
