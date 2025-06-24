@@ -1,43 +1,39 @@
 class Solution {
 public:
+    // Recursive function to reverse the list
     ListNode* reverseList(ListNode* head) {
-        if(head == NULL || head->next == NULL) {
+        if (head == NULL || head->next == NULL) {
             return head;
         }
-        
+
         ListNode* last = reverseList(head->next);
         head->next->next = head;
         head->next = NULL;
-        
+
         return last;
-        
     }
-    
+
+    // Function to double the number represented by the linked list
     ListNode* doubleIt(ListNode* head) {
-        head = reverseList(head); 
-        ListNode* curr = head; 
-        ListNode* prev = NULL; 
-        int carry = 0; 
+        head = reverseList(head);
 
-        while(curr!= NULL){
-            int value = curr->val*2 + carry; 
-            int a = value%10; 
+        ListNode* temp = head;
+        ListNode* prev = NULL;
+        int carry = 0;
 
-            curr->val = a; 
+        while (temp != NULL) {
+            int value = temp->val * 2 + carry;
+            temp->val = value % 10;
+            carry = value / 10;
 
-            if( value >= 10) carry = 1; 
-            else carry = 0;
-
-            prev = curr; 
-            curr = curr->next; 
-
+            prev = temp;
+            temp = temp->next;
         }
 
-        if( carry!= 0){
-            ListNode* newnode = new ListNode(carry); 
-            prev->next = newnode; 
+        if (carry != 0) {
+            prev->next = new ListNode(carry);
         }
+
         return reverseList(head);
-       
     }
 };
