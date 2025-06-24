@@ -14,34 +14,30 @@ public:
     }
     
     ListNode* doubleIt(ListNode* head) {
-        head = reverseList(head);
-        
-        ListNode* curr = head;
-        ListNode* prev = NULL;
-        int carry = 0;
-        
-        while(curr != NULL) {
-            
-            int newValue = curr->val * 2 + carry;
-            curr->val = newValue%10;
-            
-            if(newValue >= 10) {
-                carry = 1;
-            } else {
-                carry = 0;
-            }
-            
-            prev = curr;
-            curr = curr->next;
-            
+        head = reverseList(head); 
+        ListNode* curr = head; 
+        ListNode* prev = NULL; 
+        int carry = 0; 
+
+        while(curr!= NULL){
+            int value = curr->val*2 + carry; 
+            int a = value%10; 
+
+            curr->val = a; 
+
+            if( value >= 10) carry = 1; 
+            else carry = 0;
+
+            prev = curr; 
+            curr = curr->next; 
+
         }
-        
-        if(carry != 0) {
-            ListNode* newHead = new ListNode(carry);
-            prev->next = newHead;
+
+        if( carry!= 0){
+            ListNode* newnode = new ListNode(carry); 
+            prev->next = newnode; 
         }
-        
-        
         return reverseList(head);
+       
     }
 };
