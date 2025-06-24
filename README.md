@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2608-count-the-digits-that-divide-a-number](https://github.com/ayush02303/Leetcode/tree/master/2608-count-the-digits-that-divide-a-number) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2752-sum-multiples](https://github.com/ayush02303/Leetcode/tree/master/2752-sum-multiples) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush02303/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/ayush02303/Leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Trie
 |  |
 | ------- |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0725-split-linked-list-in-parts](https://github.com/ayush02303/Leetcode/tree/master/0725-split-linked-list-in-parts) |
 | [0908-middle-of-the-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
