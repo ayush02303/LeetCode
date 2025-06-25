@@ -1,21 +1,18 @@
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
-        List<Integer> ans = new ArrayList<>(); 
-        
-        for (int i = 0; i < nums.length; i++) {
-            int count = 0; 
-            for (int j = 0; j < nums.length; j++) {
-                if (nums[j] < nums[i]) count += 1; 
+        int n = nums.length;
+        int[] ans = new int[n];  // Output array
+
+        for (int i = 0; i < n; i++) {
+            int count = 0;
+            for (int j = 0; j < n; j++) {
+                if (nums[j] < nums[i]) {
+                    count++;
+                }
             }
-            ans.add(count); 
+            ans[i] = count;
         }
 
-        // Convert List<Integer> to int[]
-        int[] result = new int[ans.size()];
-        for (int i = 0; i < ans.size(); i++) {
-            result[i] = ans.get(i);
-        }
-
-        return result;
+        return ans;
     }
 }
