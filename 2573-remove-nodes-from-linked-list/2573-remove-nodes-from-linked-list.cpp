@@ -11,35 +11,32 @@
 class Solution {
 public:
     ListNode* removeNodes(ListNode* head) {
+        ListNode* temp = head; 
         stack<ListNode*>st; 
-        ListNode* current = head; 
-        while( current!= NULL){
-            st.push(current); 
-            current = current->next; 
-        }
 
-        current = st.top();
+        while( temp!= NULL){
+            st.push(temp); 
+            temp = temp->next;
+        }
+        temp = st.top(); 
         st.pop(); 
-        int maximum = current->val; 
-        ListNode* resultHead = new ListNode(maximum); 
+        int maximum = temp->val; 
+        ListNode* resultHead = new ListNode(temp->val); 
 
         while(!st.empty()){
-            current = st.top(); 
+            temp = st.top(); 
             st.pop(); 
-            if( current->val < maximum){
-                continue;
-            }
-            else{
-                ListNode* newnode = new ListNode(current->val); 
-                newnode->next = resultHead; 
-                resultHead = newnode;
-                maximum = current->val;
-            }
 
+            if( temp->val < maximum ) continue; 
+            else{
+                ListNode* newnode = new ListNode( temp->val);
+                newnode->next = resultHead; 
+                resultHead = newnode;  
+                maximum = temp->val;
+
+            }
 
         }
-
         return resultHead;
-        
     }
 };
