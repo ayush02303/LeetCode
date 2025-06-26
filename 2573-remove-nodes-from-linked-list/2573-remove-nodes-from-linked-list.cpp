@@ -1,35 +1,45 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
-    ListNode* reverse(ListNode* head) {
-        ListNode* prev = nullptr;
-        while (head) {
-            ListNode* next = head->next;
-            head->next = prev;
-            prev = head;
-            head = next;
-        }
-        return prev;
-    }
-
     ListNode* removeNodes(ListNode* head) {
-        head = reverse(head);
-        ListNode* dummy = new ListNode(0);
-        dummy->next = head;
-
-        ListNode* curr = head;
-        int maxVal = curr->val;
-        ListNode* prev = dummy;
-
-        while (curr) {
-            if (curr->val < maxVal) {
-                prev->next = curr->next;  // skip it
-            } else {
-                maxVal = curr->val;
-                prev = curr;
-            }
-            curr = curr->next;
+        stack<ListNode*>st; 
+        ListNode* current = head; 
+        while( current!= NULL){
+            st.push(current); 
+            current = current->next; 
         }
 
-        return reverse(dummy->next);
+        current = st.top();
+        st.pop(); 
+        int maximum = current->val; 
+        ListNode* resultHead = new ListNode(maximum); 
+
+        while(!st.empty()){
+            current = st.top(); 
+            st.pop(); 
+            if( current->val < maximum){
+                continue;
+            }
+            else{
+                ListNode* newnode = new ListNode(current->val); 
+                newnode->next = resultHead; 
+                resultHead = newnode;
+                maximum = current->val;
+            }
+
+
+        }
+
+        return resultHead;
+        
     }
 };
