@@ -5,6 +5,6 @@ class Solution {
             return Integer.MAX_VALUE;
         }
 
-        return dividend / divisor;  
+        return dividend / divisor;
     }
 }
