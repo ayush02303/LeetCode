@@ -7,12 +7,12 @@ public:
         int boats = 0; 
         sort(people.begin(),people.end()); 
         while( low<= high){
-            if( people[i] + people[j] <= limit){
-                i++; j--; 
+            if( people[low] + people[high] <= limit){
+                low++; high--; 
                 boats+=1; 
             }
             else{
-                j--; 
+                high--; 
                 boats+=1; 
             }
         }
