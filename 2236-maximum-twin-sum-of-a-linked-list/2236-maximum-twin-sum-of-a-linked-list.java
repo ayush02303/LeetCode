@@ -10,26 +10,24 @@
  */
 class Solution {
     public int pairSum(ListNode head) {
-        // Store node values in a list
-        List<Integer> ans = new ArrayList<>();
-        ListNode temp = head;
-        while (temp != null) {
-            ans.add(temp.val);
+        // stack<int>st; 
+        Stack<Integer>st = new Stack<>(); 
+        ListNode  temp = head; 
+        while(temp!= null ){
+            st.push(temp.val);
+            temp = temp.next; 
+        }
+        int N = st.size(); 
+        int count = 1; 
+        temp = head; 
+        int result = 0;
+        while( count <= N/2)
+        {
+            result = Math.max(temp.val+st.peek(),result); 
+            st.pop();
+            count+=1; 
             temp = temp.next;
         }
-
-        int result = 0; // Must initialize to 0 in Java
-        int low = 0;
-        int high = ans.size() - 1;
-
-        // Compute max twin sum
-        while (low < high) {
-            int sum = ans.get(low) + ans.get(high);
-            result = Math.max(result, sum);
-            low++;
-            high--;
-        }
-
-        return result;
+        return result; 
     }
 }
