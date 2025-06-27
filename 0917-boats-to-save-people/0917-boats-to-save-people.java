@@ -7,13 +7,10 @@ class Solution {
         Arrays.sort(people);
         while( low<= high){
             if( people[low] + people[high] <= limit){
-                low++; high--; 
-                boats+=1; 
+                low++;    
             }
-            else{
-                high--; 
-                boats+=1; 
-            }
+            high--; 
+            boats+=1;
         }
         return boats;
         
