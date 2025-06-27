@@ -14,7 +14,7 @@ public:
                 maxScore = max(maxScore,currScore);
             }
             else if( currScore>=1){
-                power = tokens[right--]; 
+                power += tokens[right--]; 
                 currScore-=1;
             }
             else break;
