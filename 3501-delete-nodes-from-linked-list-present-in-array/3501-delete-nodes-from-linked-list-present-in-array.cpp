@@ -11,10 +11,10 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        unordered_set<int>st; 
         ListNode* temp = head; 
-        while(temp!= NULL){
-            st.insert(temp->val);
+        unordered_set<int>st; 
+        while( temp!= NULL){
+            st.insert(temp->val); 
             temp = temp->next; 
         }
         for( auto num : nums){
@@ -23,15 +23,13 @@ public:
         temp = head; 
         ListNode* dummy = new ListNode(-1); 
         ListNode* curr = dummy; 
-
-        while(temp!= NULL){
-            if( st.count(temp->val)){
+        while( temp!= NULL){
+            if(st.count(temp->val)){
                 curr->next = new ListNode(temp->val); 
-                curr = curr->next;
+                curr = curr->next; 
             }
-
             temp = temp->next; 
         }
-        return dummy->next; 
+        return dummy->next;
     }
 };
