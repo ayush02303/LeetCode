@@ -15,7 +15,7 @@ public:
         unordered_set<int>st; 
         while( temp!= NULL){
             st.insert(temp->val); 
-            temp = temp->next; 
+            temp = temp->next;
         }
         for( auto num : nums){
             st.erase(num); 
