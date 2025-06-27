@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [0445-add-two-numbers-ii](https://github.com/ayush02303/Leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0507-perfect-number](https://github.com/ayush02303/Leetcode/tree/master/0507-perfect-number) |
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0728-self-dividing-numbers](https://github.com/ayush02303/Leetcode/tree/master/0728-self-dividing-numbers) |
 | [1031-add-to-array-form-of-integer](https://github.com/ayush02303/Leetcode/tree/master/1031-add-to-array-form-of-integer) |
