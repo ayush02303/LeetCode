@@ -20,18 +20,17 @@ public:
         Node* curr = head; 
         unordered_map<Node*,Node*>mp; 
 
-        while(curr!= NULL) // while(curr) would also suffice
-        {
+        while(curr){
             mp[curr] = new Node(curr->val); 
-            curr = curr->next; 
+            curr = curr->next;
         }
         curr = head; 
-        while(curr!= NULL){
+        while(curr){
             mp[curr]->next = mp[curr->next]; 
             mp[curr]->random = mp[curr->random];
-            
             curr = curr->next; 
         }
         return mp[head];
+        
     }
 };
