@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [0985-bag-of-tokens](https://github.com/ayush02303/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ayush02303/Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1031-add-to-array-form-of-integer](https://github.com/ayush02303/Leetcode/tree/master/1031-add-to-array-form-of-integer) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ayush02303/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ayush02303/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/ayush02303/Leetcode/tree/master/0728-self-dividing-numbers) |
+| [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1031-add-to-array-form-of-integer](https://github.com/ayush02303/Leetcode/tree/master/1031-add-to-array-form-of-integer) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/ayush02303/Leetcode/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/ayush02303/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [0985-bag-of-tokens](https://github.com/ayush02303/Leetcode/tree/master/0985-bag-of-tokens) |
+| [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ayush02303/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -421,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/ayush02303/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/ayush02303/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/ayush02303/Leetcode/tree/master/0985-bag-of-tokens) |
+| [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 ## Stack
