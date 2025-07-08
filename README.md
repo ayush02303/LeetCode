@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ayush02303/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ayush02303/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/ayush02303/Leetcode/tree/master/0728-self-dividing-numbers) |
+| [1013-fibonacci-number](https://github.com/ayush02303/Leetcode/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1031-add-to-array-form-of-integer](https://github.com/ayush02303/Leetcode/tree/master/1031-add-to-array-form-of-integer) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/ayush02303/Leetcode/tree/master/0118-pascals-triangle) |
 | [0152-maximum-product-subarray](https://github.com/ayush02303/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/ayush02303/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [1013-fibonacci-number](https://github.com/ayush02303/Leetcode/tree/master/1013-fibonacci-number) |
 ## Number Theory
 |  |
 | ------- |
@@ -502,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/ayush02303/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1013-fibonacci-number](https://github.com/ayush02303/Leetcode/tree/master/1013-fibonacci-number) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Monotonic Stack
 |  |
@@ -514,4 +517,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0324-wiggle-sort-ii](https://github.com/ayush02303/Leetcode/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ayush02303/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/ayush02303/Leetcode/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
