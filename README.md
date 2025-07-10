@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2427-first-letter-to-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 | [2486-most-frequent-even-element](https://github.com/ayush02303/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3324-split-the-array](https://github.com/ayush02303/Leetcode/tree/master/3324-split-the-array) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2752-sum-multiples](https://github.com/ayush02303/Leetcode/tree/master/2752-sum-multiples) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush02303/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 | [3321-type-of-triangle](https://github.com/ayush02303/Leetcode/tree/master/3321-type-of-triangle) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/ayush02303/Leetcode/tree/master/3515-find-if-digit-game-can-be-won) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/ayush02303/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -340,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/ayush02303/Leetcode/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2427-first-letter-to-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/ayush02303/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Divide and Conquer
 |  |
@@ -406,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 ## Matrix
 |  |
 | ------- |
@@ -425,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/ayush02303/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [2714-left-and-right-sum-differences](https://github.com/ayush02303/Leetcode/tree/master/2714-left-and-right-sum-differences) |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 ## Greedy
 |  |
 | ------- |
@@ -533,4 +538,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/ayush02303/Leetcode/tree/master/0022-generate-parentheses) |
+## Enumeration
+|  |
+| ------- |
+| [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 <!---LeetCode Topics End-->
