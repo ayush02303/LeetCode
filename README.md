@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/ayush02303/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/ayush02303/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
 ## Simulation
 |  |
 | ------- |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/ayush02303/Leetcode/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2427-first-letter-to-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/ayush02303/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Divide and Conquer
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
+| [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
 ## Stack
 |  |
 | ------- |
