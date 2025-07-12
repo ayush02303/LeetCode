@@ -1,17 +1,13 @@
 class Solution {
 public:
     long long minimumSteps(string s) {
-
-        int n = s.length(); 
-        long long swap = 0; 
         int black = 0; 
+        long long currsum = 0; 
 
-        for( int i = 0 ; i< n ; i++){
-            if( s[i] == '0') swap+=black;
+        for( int i = 0 ; i < s.length() ; i++){
+            if( s[i] == '0') currsum+= black; 
             else black+=1;
-
         }
-        return swap; 
-        
+        return currsum;
     }
 };
