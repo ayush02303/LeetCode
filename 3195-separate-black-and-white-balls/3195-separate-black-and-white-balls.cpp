@@ -1,13 +1,16 @@
 class Solution {
 public:
-    long long minimumSteps(string s) {
+    long long minimumSteps(string chars) {
+          long long curr = 0; 
         int black = 0; 
-        long long currsum = 0; 
+        int n = chars.size(); 
 
-        for( int i = 0 ; i < s.length() ; i++){
-            if( s[i] == '0') currsum+= black; 
-            else black+=1;
+        for( int i = 0 ; i< n ; i++){
+            if( chars[i] == '0') curr+= black;
+            else black++; 
         }
-        return currsum;
+        return curr;
+        
+        
     }
 };
