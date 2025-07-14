@@ -1,16 +1,16 @@
 class Solution {
 public:
     int alternateDigitSum(int n) {
-        string s = to_string(n);
-        int sum = 0;
-        int sign = 1;  // Start with '+'
+        int sign = 1; 
+        string digit = to_string(n); 
+        int sum = 0; 
 
-        for (char c : s) {
-            int digit = c - '0';
-            sum += sign * digit;
-            sign *= -1;  // Alternate sign
+        for( char c : digit){
+            int a = c - '0'; 
+            sum+=a*sign; 
+            sign *= -1;
         }
-
-        return sum;
+        return sum; 
+        
     }
 };
