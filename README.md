@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2556-convert-the-temperature](https://github.com/ayush02303/Leetcode/tree/master/2556-convert-the-temperature) |
 | [2608-count-the-digits-that-divide-a-number](https://github.com/ayush02303/Leetcode/tree/master/2608-count-the-digits-that-divide-a-number) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
+| [2630-alternating-digit-sum](https://github.com/ayush02303/Leetcode/tree/master/2630-alternating-digit-sum) |
 | [2752-sum-multiples](https://github.com/ayush02303/Leetcode/tree/master/2752-sum-multiples) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush02303/Leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
