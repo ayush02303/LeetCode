@@ -10,10 +10,11 @@ public:
         for (int i = 0; i < n; i++) {
             if (s[i] == '1') {
                 length++;
-                result = (result + length) % MOD;
+                
             } else {
                 length = 0;  // reset on '0'
             }
+            result = (result + length) % MOD;
         }
 
         return result;
