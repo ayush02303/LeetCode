@@ -7,10 +7,9 @@ public:
 
         for( char c : digit){
             int a = c - '0'; 
-            sum+=a*sign; 
-            sign *= -1;
+            sum+= a* sign; 
+            sign*= -1;
         }
-        return sum; 
-        
+        return sum;
     }
 };
