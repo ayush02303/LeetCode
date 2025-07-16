@@ -9,7 +9,7 @@ public:
         string temp ; 
         for( char ch : s){
             if( isVowel(ch)){
-                temp.push_back(ch); 
+                temp.push_back(ch);
             }
         }
             sort(temp.begin(),temp.end()); 
