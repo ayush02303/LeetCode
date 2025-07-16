@@ -7,7 +7,7 @@ public:
             int largest = nums[i]; 
             int smallest = nums[i]; 
 
-            for( int j = i+1 ; j< nums.size() ; j++){
+            for( int j = i ; j< nums.size() ; j++){
                 largest = max(nums[j] , largest); 
                 smallest = min( nums[j] , smallest);
 
