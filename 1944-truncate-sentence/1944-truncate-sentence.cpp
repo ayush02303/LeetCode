@@ -1,18 +1,17 @@
 class Solution {
 public:
     string truncateSentence(string s, int k) {
-        int count = 0;
-        string result = "";
+        string result ; 
+        int count = 0; 
 
-        for (char c : s) {
-            if (c == ' ') {
-                count++;
-                if (count == k)
-                    break;
+        for( auto c : s){
+            if( c == ' '){
+                count+=1; 
             }
-            result += c;
-        }
+            if( count == k) break; 
 
+            result+= c; 
+        }
         return result;
     }
 };
