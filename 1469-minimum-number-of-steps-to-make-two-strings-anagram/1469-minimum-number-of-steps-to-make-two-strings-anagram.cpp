@@ -1,25 +1,22 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
+        int n = s.size(); 
 
-        int n = s.length(); 
-
-        int mp_s[26] = {0}; 
-        int mp_t[26] = {0}; 
+        int arr1[26] = {0}; 
+        int arr2[26] = {0}; //26 as there are 26 letters in english 
 
         for( int i = 0 ; i< n ; i++){
-
-            mp_s[ s[i] - 'a']++; 
-            mp_t[ t[i] - 'a']++; 
+            arr1[s[i] - 'a']++; 
+            arr2[t[i] - 'a']++; 
         }
-
         int result = 0; 
 
         for( int i = 0 ; i< 26 ; i++){
-            if( mp_s[i]  > mp_t[i]){
-                result += mp_s[i] - mp_t[i]; 
-            }
+            if( arr1[i] > arr2[i]) result+= arr1[i] - arr2[i]; 
+
         }
-        return result; 
+        return result ; 
+        
     }
 };
