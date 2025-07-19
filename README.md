@@ -357,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [0443-string-compression](https://github.com/ayush02303/Leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0520-detect-capital](https://github.com/ayush02303/Leetcode/tree/master/0520-detect-capital) |
 | [0680-valid-palindrome-ii](https://github.com/ayush02303/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/ayush02303/Leetcode/tree/master/0742-to-lower-case) |
 | [0812-rotate-string](https://github.com/ayush02303/Leetcode/tree/master/0812-rotate-string) |
