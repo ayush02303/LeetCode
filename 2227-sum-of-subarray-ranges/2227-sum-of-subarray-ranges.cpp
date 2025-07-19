@@ -1,18 +1,20 @@
 class Solution {
 public:
     long long subArrayRanges(vector<int>& nums) {
-        long long sum = 0;
-        for( int i = 0 ; i < nums.size() ; i++){
-            int smallest = nums[i]; 
+        int n = nums.size(); 
+        long long sum = 0; 
+        for( int i = 0 ; i< n ; i++){
             int largest = nums[i]; 
+            int smallest = nums[i]; 
 
-            for( int j = i; j< nums.size() ; j++){
-                smallest = min( smallest , nums[j]); 
-                largest = max( largest , nums[j]); 
+            for( int j = i ; j< n ; j++){
+                largest = max( largest, nums[j]); 
+                smallest = min( smallest, nums[j]); 
 
-                sum += ( largest - smallest); 
+                sum+= (largest - smallest); 
             }
+
         }
-        return sum;
+        return sum ;
     }
 };
