@@ -9,9 +9,9 @@ public:
         }
 
         if( uppercount == n) return true;  // all letters are  uppercased
-        if( uppercount == 0) return true;  // all letters are lowercased
-        if( uppercount == 1 && isupper(word[0]) ) return true;
-        else return false;
+        else if( uppercount == 0) return true;  // all letters are lowercased
+        else if( uppercount == 1 && isupper(word[0]) ) return true;
+        return false;
         
     }
 };
