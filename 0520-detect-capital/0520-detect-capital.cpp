@@ -2,16 +2,14 @@ class Solution {
 public:
     bool detectCapitalUse(string word) {
         int uppercount = 0; 
-        int n = word.size(); 
-
-        for( char ch : word){
-            if( isupper(ch)) uppercount+=1;
+        for( auto ch : word){
+            if( isupper(ch)) uppercount+=1; 
         }
-
-        if( uppercount == n) return true;  // all letters are  uppercased
-        else if( uppercount == 0) return true;  // all letters are lowercased
-        else if( uppercount == 1 && isupper(word[0]) ) return true;
-        return false;
+        int n = word.size(); 
+        if( uppercount == n) return true; 
+        else if( uppercount == 0) return true; 
+        else if( uppercount == 1 &&  isupper(word[0])) return true; 
+        else return false;
         
     }
 };
