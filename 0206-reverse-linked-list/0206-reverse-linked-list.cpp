@@ -23,6 +23,6 @@ public:
             st.pop(); 
             temp = temp->next; 
         }
-        return head; 
+        return head;
     }
 };
