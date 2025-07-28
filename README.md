@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ayush02303/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ayush02303/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ayush02303/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ayush02303/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ayush02303/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/ayush02303/Leetcode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/ayush02303/Leetcode/tree/master/1885-count-number-of-homogenous-substrings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ayush02303/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1944-truncate-sentence](https://github.com/ayush02303/Leetcode/tree/master/1944-truncate-sentence) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/ayush02303/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ayush02303/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ayush02303/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ayush02303/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ayush02303/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/ayush02303/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2293-minimum-number-of-steps-to-make-two-strings-anagram-ii](https://github.com/ayush02303/Leetcode/tree/master/2293-minimum-number-of-steps-to-make-two-strings-anagram-ii) |
 | [2427-first-letter-to-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/2427-first-letter-to-appear-twice) |
