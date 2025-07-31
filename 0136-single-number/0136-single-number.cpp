@@ -1,15 +1,10 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        unordered_map<int,int>mp; 
-
-        for( int num : nums){
-            mp[num]++; 
+        int res = 0; 
+        for (int num : nums) {
+            res ^= num;  // XOR operation
         }
-
-        for( auto num : mp){
-            if( num.second == 1) return num.first; 
-        }
-        return -1;
+        return res;
     }
 };
