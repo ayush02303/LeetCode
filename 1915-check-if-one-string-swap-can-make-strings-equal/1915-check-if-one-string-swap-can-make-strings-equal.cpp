@@ -2,7 +2,7 @@ class Solution {
 public:
     bool areAlmostEqual(string s1, string s2) {
         int n = s1.size(); 
-        int diffs = 0; 
+        int diffs = 0;
         int freq1[26] = {0}; 
         int freq2[26] = {0}; 
 
