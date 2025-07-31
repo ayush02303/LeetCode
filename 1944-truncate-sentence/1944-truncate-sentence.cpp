@@ -1,14 +1,14 @@
 class Solution {
 public:
     string truncateSentence(string s, int k) {
-        int count = 0; 
-        string result;
-
+        string ans; 
+        int count = 0;
         for( auto ch : s){
             if( ch == ' ') count+=1; 
-            if( count == k) break; 
-            result+=ch;
+            if( count == k) break;
+            ans+=ch; 
         }
-        return result;
+        return ans;
+        
     }
 };
