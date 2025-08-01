@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/ayush02303/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0390-elimination-game](https://github.com/ayush02303/Leetcode/tree/master/0390-elimination-game) |
 | [0412-fizz-buzz](https://github.com/ayush02303/Leetcode/tree/master/0412-fizz-buzz) |
 | [0445-add-two-numbers-ii](https://github.com/ayush02303/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0507-perfect-number](https://github.com/ayush02303/Leetcode/tree/master/0507-perfect-number) |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ayush02303/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0390-elimination-game](https://github.com/ayush02303/Leetcode/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/ayush02303/Leetcode/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/ayush02303/Leetcode/tree/master/2050-count-good-numbers) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
