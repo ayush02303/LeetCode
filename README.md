@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ayush02303/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ayush02303/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ayush02303/Leetcode/tree/master/0169-majority-element) |
+| [0204-count-primes](https://github.com/ayush02303/Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/ayush02303/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ayush02303/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/ayush02303/Leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
 | [0089-gray-code](https://github.com/ayush02303/Leetcode/tree/master/0089-gray-code) |
+| [0204-count-primes](https://github.com/ayush02303/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/ayush02303/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/ayush02303/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 ## Matrix
@@ -609,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/ayush02303/Leetcode/tree/master/0204-count-primes) |
 | [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
 ## Depth-First Search
 |  |
