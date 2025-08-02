@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/ayush02303/Leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
+| [0089-gray-code](https://github.com/ayush02303/Leetcode/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/ayush02303/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/ayush02303/Leetcode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/ayush02303/Leetcode/tree/master/0268-missing-number) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/ayush02303/Leetcode/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/ayush02303/Leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ayush02303/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/ayush02303/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ayush02303/Leetcode/tree/master/0137-single-number-ii) |
@@ -601,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/ayush02303/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/ayush02303/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ayush02303/Leetcode/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/ayush02303/Leetcode/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/ayush02303/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/ayush02303/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Enumeration
