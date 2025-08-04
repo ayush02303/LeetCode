@@ -10,7 +10,7 @@ public:
         if( uppercount == n) return true; 
         else if( uppercount == 0) return true; 
         else if( uppercount == 1 && isupper(word[0])) return true;
-        else return false; 
+        else return false;
         
     }
 };
