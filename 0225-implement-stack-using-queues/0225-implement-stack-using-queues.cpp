@@ -1,42 +1,50 @@
-#include <queue>
-using namespace std;
-
 class MyStack {
 public:
-    queue<int> q1; 
-    queue<int> q2; 
-    
+    queue<int>q1; 
+    queue<int>q2; 
+
     MyStack() {
-        // constructor (can be left empty)
+        
     }
     
     void push(int x) {
-        // Push to q2 first
-        q2.push(x);
-        
-        // Move all elements of q1 to q2
-        while (!q1.empty()) {
-            q2.push(q1.front());
+        while(!q1.empty()){
+            q2.push(q1.front()); 
             q1.pop();
         }
+
+        q1.push(x); 
+
+        while(!q2.empty()){
+            q1.push(q2.front()); 
+            q2.pop(); 
+        }
+
         
-        // Swap q1 and q2
-        swap(q1, q2);
     }
     
     int pop() {
-        if (q1.empty()) return -1; // Stack underflow
-        int val = q1.front();
-        q1.pop();
-        return val;
+        int ans = q1.front(); 
+        q1.pop(); 
+        return ans; 
+        
     }
     
     int top() {
-        if (q1.empty()) return -1;
-        return q1.front();
+        return q1.front(); 
+        
     }
     
     bool empty() {
-        return q1.empty();
+        return q1.empty(); 
     }
 };
+
+/**
+ * Your MyStack object will be instantiated and called as such:
+ * MyStack* obj = new MyStack();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->top();
+ * bool param_4 = obj->empty();
+ */
