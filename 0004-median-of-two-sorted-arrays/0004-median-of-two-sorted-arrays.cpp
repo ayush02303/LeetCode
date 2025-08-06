@@ -7,7 +7,7 @@ public:
         }
 
         int n1 = nums1.size();
-        int n2 = nums2.size();
+        int n2 = nums2.size(); 
 
         int low = 0, high = n1;
 
