@@ -514,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/ayush02303/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0739-daily-temperatures](https://github.com/ayush02303/Leetcode/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/ayush02303/Leetcode/tree/master/0937-online-stock-span) |
 | [1078-remove-outermost-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ayush02303/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/ayush02303/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
@@ -593,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/ayush02303/Leetcode/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/ayush02303/Leetcode/tree/master/0937-online-stock-span) |
 | [2227-sum-of-subarray-ranges](https://github.com/ayush02303/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ayush02303/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Quickselect
@@ -632,4 +634,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/ayush02303/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ayush02303/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ayush02303/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0937-online-stock-span](https://github.com/ayush02303/Leetcode/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/ayush02303/Leetcode/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
