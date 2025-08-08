@@ -1,6 +1,7 @@
 class MyStack {
 public:
     queue<int>q1,q2; 
+
     MyStack() {
         
     }
@@ -14,8 +15,9 @@ public:
 
         while(!q2.empty()){
             q1.push(q2.front()); 
-            q2.pop();
+            q2.pop(); 
         }
+
         
     }
     
@@ -23,7 +25,6 @@ public:
         int ans = q1.front(); 
         q1.pop(); 
         return ans; 
-        
     }
     
     int top() {
@@ -32,7 +33,8 @@ public:
     }
     
     bool empty() {
-        return q1.empty(); 
+        return q1.empty();
+        
     }
 };
 
