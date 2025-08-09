@@ -3,14 +3,13 @@ public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         int low = 0; 
         int high = numbers.size()-1; 
-
         while( low<= high){
-            int mid = numbers[low]+ numbers[high]; 
-            if( mid == target) return { low+1, high+1}; 
-            else if( mid < target) low++; 
-            else high--;
+            int sum = numbers[low]+ numbers[high]; 
+            if( sum == target) return { low+1, high+1}; 
+            else if( sum < target) low+=1; 
+            else high-=1; 
         }
-        return{}; 
+        return {};
         
     }
 };
