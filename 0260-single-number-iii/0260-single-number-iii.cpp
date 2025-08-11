@@ -8,7 +8,7 @@ public:
         }
 
         for( auto num : mp){
-            if( num.second == 1) ans.push_back(num.first);
+            if( num.second == 1) ans.push_back( num.first); 
         }
         return ans;
         
