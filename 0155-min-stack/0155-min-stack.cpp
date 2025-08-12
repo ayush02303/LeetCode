@@ -8,8 +8,7 @@ public:
     void push(int val) {
         if(st.empty()) st.push({val,val}); 
         else{
-            int mini = min(val , st.top().second); 
-            st.push({val,mini}); 
+            st.push({val, min(val,st.top().second )});
         }
         
     }
