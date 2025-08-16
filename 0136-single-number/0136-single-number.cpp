@@ -10,7 +10,6 @@ public:
         for( auto num : mp){
             if(num.second == 1) return num.first; 
         }
-
-      return -1;  
+        return -1;
     }
 };
