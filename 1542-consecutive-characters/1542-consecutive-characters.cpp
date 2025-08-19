@@ -1,11 +1,11 @@
 class Solution {
 public:
     int maxPower(string s) {
-        int maxi = 1; 
-        int count = 1; 
         int n = s.size(); 
+        int count = 1; 
+        int maxi = 1; 
 
-        for( int i = 1 ; i< n ;i++){
+        for( int i =1; i< n ; i++){
             if( s[i] == s[i-1]){
                 count+=1; 
                 maxi = max(maxi,count); 
@@ -13,5 +13,6 @@ public:
             else count =1 ; 
         }
         return maxi;
+        
     }
 };
