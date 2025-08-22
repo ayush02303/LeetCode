@@ -1,35 +1,32 @@
 class Solution {
 public:
     long long maximumSubarraySum(vector<int>& nums, int k) {
-        int i = 0, j = 0;
-        long long result = 0;
-        long long currWindowSum = 0;
-        unordered_set<int> st;
+        int i = 0, j = 0; 
+        long long currsum = 0; 
+        unordered_set<int>st; 
+        int n = nums.size(); 
+        long long  result  = 0; 
 
-        while (j < nums.size()) {
-            // Adjust the window if nums[j] is already in the set
-            while (st.count(nums[j])) {
-                currWindowSum -= nums[i];
-                st.erase(nums[i]);
-                i++;
+        while( j<n){
+            while( st.count(nums[j])){
+                currsum-=nums[i]; 
+                st.erase(nums[i]); 
+                i++; 
             }
 
-            currWindowSum += nums[j];
-            st.insert(nums[j]);
+            currsum+=nums[j]; 
+            st.insert(nums[j]); 
 
-            // Check if the window size is equal to k
-            if (j - i + 1 == k) {
-                result = max(result, currWindowSum);
+            if( j-i+1 == k){
+                 result = max(result, currsum);
 
                 // Shrink the window from the left
-                currWindowSum -= nums[i];
+                currsum -= nums[i];
                 st.erase(nums[i]);
                 i++;
             }
-
-            j++;
+            j++; 
         }
-
         return result;
     }
 };
