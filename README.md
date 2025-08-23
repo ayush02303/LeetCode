@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1950-sign-of-the-product-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ayush02303/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
+| [2211-k-radius-subarray-averages](https://github.com/ayush02303/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/ayush02303/Leetcode/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2227-sum-of-subarray-ranges](https://github.com/ayush02303/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/ayush02303/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ayush02303/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ayush02303/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ayush02303/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [2211-k-radius-subarray-averages](https://github.com/ayush02303/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ayush02303/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Linked List
 |  |
