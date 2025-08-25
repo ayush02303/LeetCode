@@ -1,30 +1,28 @@
 class Solution {
 public:
-     bool isValid( vector<int>&count){
+       bool isValid( vector<int>&count){
         return count == vector<int>(26,0); 
     }
-    vector<int> findAnagrams(string txt, string pat ) {
-          vector<int>count(26,0); 
-        
-        for( int i = 0 ; i< pat.size() ; i++){
-            count[ pat[i] - 'a']++; 
+    vector<int> findAnagrams(string s, string p) {
+        vector<int>count(26,0); 
+
+        for( int i = 0 ;i< p.size(); i++){
+            count[ p[i] - 'a']++; 
         }
-        
-        int j = 0, i = 0; 
-        vector<int>result; 
-        
-        while( j< txt.size()){
-            count[ txt[j] - 'a']--;
-            
-            if( j-i+1 == pat.size()){
+        int i = 0, j = 0; 
+        vector<int>result;
+
+        while( j <  s.size()){
+            count[ s[j] - 'a']--; 
+
+            if(j - i+1 == p.size()){
                 if( isValid(count)) result.push_back(i); 
-                
-                count[txt[i] - 'a']++; 
+
+                count[ s[i]- 'a']++; 
                 i++; 
-            } 
-            j++;
+            }
+            j++; 
         }
         return result;
-        
     }
 };
