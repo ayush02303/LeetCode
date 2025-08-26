@@ -9,7 +9,7 @@ public:
         while( j < nums.size()){
             mp[ nums[j]]++; 
 
-            if(  i<j && mp[nums[j]] > k){
+            while(  i<j && mp[nums[j]] > k){
                 mp[nums[i]]--;
                 i++; 
 
