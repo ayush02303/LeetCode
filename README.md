@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2876-number-of-employees-who-met-the-target](https://github.com/ayush02303/Leetcode/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/ayush02303/Leetcode/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ayush02303/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayush02303/Leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -622,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ayush02303/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2211-k-radius-subarray-averages](https://github.com/ayush02303/Leetcode/tree/master/2211-k-radius-subarray-averages) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ayush02303/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ayush02303/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayush02303/Leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Linked List
 |  |
