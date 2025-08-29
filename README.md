@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ayush02303/Leetcode/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/ayush02303/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3324-split-the-array](https://github.com/ayush02303/Leetcode/tree/master/3324-split-the-array) |
+| [3405-count-the-number-of-special-characters-ii](https://github.com/ayush02303/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/ayush02303/Leetcode/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/ayush02303/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/ayush02303/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/ayush02303/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3210-count-beautiful-substrings-i](https://github.com/ayush02303/Leetcode/tree/master/3210-count-beautiful-substrings-i) |
+| [3405-count-the-number-of-special-characters-ii](https://github.com/ayush02303/Leetcode/tree/master/3405-count-the-number-of-special-characters-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/ayush02303/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Divide and Conquer
 |  |
