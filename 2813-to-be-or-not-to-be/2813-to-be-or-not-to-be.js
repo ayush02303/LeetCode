@@ -4,12 +4,12 @@
  */
 var expect = function(val) {
     return{
-        toBe : function( otherVal){
-            if( val === otherVal) return true; 
+        toBe : function(val1){
+            if( val1 === val) return true
             else throw new Error("Not Equal")
         }, 
-        notToBe : function( otherVal){
-            if( val !== otherVal) return true; 
+        notToBe : function( val2){
+            if( val !== val2) return true
             else throw new Error("Equal")
 
         }
