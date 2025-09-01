@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/ayush02303/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/ayush02303/Leetcode/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/ayush02303/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0048-rotate-image](https://github.com/ayush02303/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ayush02303/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ayush02303/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/ayush02303/Leetcode/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/ayush02303/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/ayush02303/Leetcode/tree/master/0029-divide-two-integers) |
+| [0048-rotate-image](https://github.com/ayush02303/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ayush02303/Leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/ayush02303/Leetcode/tree/master/0066-plus-one) |
 | [0089-gray-code](https://github.com/ayush02303/Leetcode/tree/master/0089-gray-code) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ayush02303/Leetcode/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/ayush02303/Leetcode/tree/master/0079-word-search) |
 | [1791-richest-customer-wealth](https://github.com/ayush02303/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/ayush02303/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
