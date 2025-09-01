@@ -1,22 +1,21 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        int m = s1.size(); 
-        int n = s2.size(); 
+        int n1 = s1.size(); // small string 
+        int n2 = s2.size();  // parent string 
 
-        if( m > n) return false; 
-
+        if( n1 > n2) return false; 
         sort( s1.begin(), s1.end()); 
 
-        for( int i = 0; i<= n- m; i++){
-            string substring = s2.substr(i,m);
-            sort( substring.begin(), substring.end()); 
+        for( int i = 0 ; i<=  n2-n1 ; i++){
+            string s3 = s2.substr(i,n1); 
+            sort( s3.begin(), s3.end());
 
-            if( s1 == substring) return true; 
+            if( s3 == s1) return true;
+
+
         }
         return false;
-
-
         
     }
 };
