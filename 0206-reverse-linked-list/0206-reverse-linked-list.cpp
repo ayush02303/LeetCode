@@ -18,12 +18,12 @@ public:
             temp = temp->next; 
         }
         temp = head; 
-        while(temp!= NULL){
+        while(temp != NULL){
             temp->val = st.top(); 
             st.pop(); 
             temp = temp->next; 
         }
-        return head;
+        return head; 
         
     }
 };
