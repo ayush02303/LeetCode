@@ -13,15 +13,19 @@ public:
     ListNode* middleNode(ListNode* head) {
         ListNode* temp = head; 
         int count = 0; 
+
         while(temp!= NULL){
             temp = temp->next; 
             count+=1; 
         }
-        int middle = count/2; 
         temp = head; 
-        for( int i = 0 ; i< middle ; i++){
+        int mid = count/2; 
+        
+        for( int i = 0; i < mid ; i++){
             temp = temp->next; 
         }
         return temp;
+
+        
     }
 };
