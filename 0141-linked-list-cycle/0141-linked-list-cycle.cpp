@@ -9,18 +9,15 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-          unordered_set<ListNode*> visited; // store addresses of visited nodes
-        
-        ListNode* current = head;
-        while (current != nullptr) {
-            // if we have already seen this node → cycle detected
-            if (visited.find(current) != visited.end()) {
-                return true;
-            }
-            visited.insert(current);  // mark node as visited
-            current = current->next;
-        }
+        unordered_set<ListNode*>mp; 
+        ListNode* temp = head; 
 
+        while( temp!= NULL){
+            if( mp.find( temp) != mp.end()) return true; 
+
+            mp.insert(temp); 
+            temp = temp->next;
+        }
         return false;
         
     }
