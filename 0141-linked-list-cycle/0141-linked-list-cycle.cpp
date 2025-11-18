@@ -10,11 +10,10 @@ class Solution {
 public:
     bool hasCycle(ListNode *head) {
         unordered_set<ListNode*>st; 
-
         ListNode* temp = head; 
 
         while(temp!= NULL){
-            if( st.find(temp) != st.end()) return true; 
+            if( st.find(temp)!= st.end()) return true; 
             st.insert(temp); 
             temp = temp->next; 
         }
