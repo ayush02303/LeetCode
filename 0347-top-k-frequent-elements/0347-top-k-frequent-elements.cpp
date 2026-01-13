@@ -1,29 +1,33 @@
 class Solution {
 public:
+    typedef pair<int, int> p;
+    
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int, int> freq;
-
-        for (int num : nums) {
-            freq[num]++;
+        
+        //min-heap
+        priority_queue<p, vector<p>, greater<p>> pq;
+        
+        //count frequency of each element
+        // Worst Case - n distinct elements are stored, so, space O(n)
+        unordered_map<int, int> mp;
+        for(int i : nums)
+            mp[i]++;
+        
+        //Push in min-heap and maintain size k
+        for(auto it:mp) {
+            pq.push({it.second, it.first});
+            
+            if(pq.size() > k)
+                pq.pop();
         }
-
         
-        vector<pair<int, int>> freqList;
-        for (auto& [num, count] : freq) {
-            freqList.push_back({num, count});
-        }
-
         
-        sort(freqList.begin(), freqList.end(), [](auto& a, auto& b) {
-            return a.second > b.second;
-        });
-
-        
+        //Pick all top K elements
         vector<int> result;
-        for (int i = 0; i < k; ++i) {
-            result.push_back(freqList[i].first);
+        while(!pq.empty()) {
+            result.push_back(pq.top().second);
+            pq.pop();
         }
-
         return result;
     }
 };
