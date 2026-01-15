@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ayush02303/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ayush02303/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/ayush02303/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/ayush02303/Leetcode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/ayush02303/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/ayush02303/Leetcode/tree/master/0724-find-pivot-index) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/ayush02303/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/ayush02303/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/ayush02303/Leetcode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/ayush02303/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/ayush02303/Leetcode/tree/master/0792-binary-search) |
@@ -328,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ayush02303/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0917-boats-to-save-people](https://github.com/ayush02303/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [0985-bag-of-tokens](https://github.com/ayush02303/Leetcode/tree/master/0985-bag-of-tokens) |
@@ -379,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/ayush02303/Leetcode/tree/master/0443-string-compression) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ayush02303/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/ayush02303/Leetcode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/ayush02303/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/ayush02303/Leetcode/tree/master/0908-middle-of-the-linked-list) |
@@ -490,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ayush02303/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ayush02303/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ayush02303/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayush02303/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [1046-last-stone-weight](https://github.com/ayush02303/Leetcode/tree/master/1046-last-stone-weight) |
@@ -647,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/ayush02303/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/ayush02303/Leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/ayush02303/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0658-find-k-closest-elements](https://github.com/ayush02303/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/ayush02303/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/ayush02303/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ayush02303/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
