@@ -1,19 +1,24 @@
 class Solution {
 public:
+    typedef pair<int,int>P; 
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-        int n = arr.size();
-        int left = 0, right = n - k;
+        priority_queue<P>pq; 
 
-        while (left < right) {
-            int mid = left + (right - left) / 2;
+        for( auto it : arr){
+            pq.push({ abs(it- x), it}); 
 
-            // Compare distances
-            if (x - arr[mid] > arr[mid + k] - x)
-                left = mid + 1;
-            else
-                right = mid;
+            if( pq.size() > k) pq.pop(); 
+
+        } 
+        vector<int>ans; 
+
+        while(!pq.empty()){
+            ans.push_back(pq.top().second); 
+            pq.pop(); 
+
         }
-
-        return vector<int>(arr.begin() + left, arr.begin() + left + k);
+        sort(ans.begin(), ans.end()); 
+        return ans ; 
+        
     }
 };
