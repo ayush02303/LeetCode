@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ayush02303/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/ayush02303/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2486-most-frequent-even-element](https://github.com/ayush02303/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/ayush02303/Leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2551-apply-operations-to-an-array](https://github.com/ayush02303/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ayush02303/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/ayush02303/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/ayush02303/Leetcode/tree/master/1046-last-stone-weight) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/ayush02303/Leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2208-minimum-operations-to-halve-array-sum](https://github.com/ayush02303/Leetcode/tree/master/2208-minimum-operations-to-halve-array-sum) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/ayush02303/Leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 ## Merge Sort
 |  |
@@ -614,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2208-minimum-operations-to-halve-array-sum](https://github.com/ayush02303/Leetcode/tree/master/2208-minimum-operations-to-halve-array-sum) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/ayush02303/Leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
 ## Stack
 |  |
