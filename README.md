@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1791-richest-customer-wealth](https://github.com/ayush02303/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [1944-truncate-sentence](https://github.com/ayush02303/Leetcode/tree/master/1944-truncate-sentence) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/ayush02303/Leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ayush02303/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2211-k-radius-subarray-averages](https://github.com/ayush02303/Leetcode/tree/master/2211-k-radius-subarray-averages) |
@@ -505,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayush02303/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/ayush02303/Leetcode/tree/master/0948-sort-an-array) |
 | [1046-last-stone-weight](https://github.com/ayush02303/Leetcode/tree/master/1046-last-stone-weight) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/ayush02303/Leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [3226-minimum-number-game](https://github.com/ayush02303/Leetcode/tree/master/3226-minimum-number-game) |
 ## Merge Sort
 |  |
@@ -606,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/ayush02303/Leetcode/tree/master/0917-boats-to-save-people) |
 | [0985-bag-of-tokens](https://github.com/ayush02303/Leetcode/tree/master/0985-bag-of-tokens) |
 | [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/ayush02303/Leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2032-largest-odd-number-in-string](https://github.com/ayush02303/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [3195-separate-black-and-white-balls](https://github.com/ayush02303/Leetcode/tree/master/3195-separate-black-and-white-balls) |
