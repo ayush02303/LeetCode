@@ -1,28 +1,31 @@
 class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
-        int n = hand.size();
-        if (n % groupSize != 0) return false;
+        int n = hand.size(); 
+        if( n%groupSize) return false; 
 
-        map<int, int> mp;
-        for (int x : hand)
-            mp[x]++;
+        map<int,int>mp; 
+        for( auto x : hand){
+            mp[x]++; 
+        }        
 
-        while (!mp.empty()) {
-            int start = mp.begin()->first;
+        while(!mp.empty()){
 
-            for (int i = 0; i < groupSize; i++) {
-                int card = start + i;
+            int curr = mp.begin()->first; 
 
-                if (mp.find(card) == mp.end())
-                    return false;
+            for( int i = 0 ; i< groupSize ; i++){
+                if( mp[curr+i] == 0) return false; 
 
-                mp[card]--;
-
-                if (mp[card] == 0)
-                    mp.erase(card);
+                mp[curr+i]-=1; 
+                if( mp[curr+i] < 1) mp.erase(curr+i); 
             }
+            
+
+
+
         }
-        return true;
+        return true; 
+
+        
     }
 };
