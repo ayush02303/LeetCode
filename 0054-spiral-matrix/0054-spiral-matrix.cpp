@@ -51,7 +51,8 @@ public:
                 left++;
             }
             
-            id = (id+1)%4;
+            id++; 
+            if( id == 4 ) id = 0;  
         }
         return result;
     }
