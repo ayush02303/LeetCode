@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/ayush02303/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1319-unique-number-of-occurrences](https://github.com/ayush02303/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1329-sort-the-matrix-diagonally](https://github.com/ayush02303/Leetcode/tree/master/1329-sort-the-matrix-diagonally) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ayush02303/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ayush02303/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ayush02303/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/ayush02303/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush02303/Leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1256-rank-transform-of-an-array](https://github.com/ayush02303/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1329-sort-the-matrix-diagonally](https://github.com/ayush02303/Leetcode/tree/master/1329-sort-the-matrix-diagonally) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ayush02303/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2117-find-original-array-from-doubled-array](https://github.com/ayush02303/Leetcode/tree/master/2117-find-original-array-from-doubled-array) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/ayush02303/Leetcode/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -606,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/ayush02303/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/ayush02303/Leetcode/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ayush02303/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [1329-sort-the-matrix-diagonally](https://github.com/ayush02303/Leetcode/tree/master/1329-sort-the-matrix-diagonally) |
 | [1791-richest-customer-wealth](https://github.com/ayush02303/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/ayush02303/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 ## Prefix Sum
